@@ -1,18 +1,18 @@
-# @hyperswarm/hypersign
+# @dwebswarm/dwebsign
 
 Utility methods related to public key cryptography to be used with distributed mutable storage.
 
 ```
-npm install @hyperswarm/hypersign
+npm install @dwebswarm/dwebsign
 ```
 
 ## API
 
-#### `const { keypair, salt, sign, signable } = hypersign()`
+#### `const { keypair, salt, sign, signable } = dwebsign()`
 
-Call the exported function to get hypersign instance.
+Call the exported function to get dwebsign instance.
 
-There is also a class `hypersign.HyperSign` which can be
+There is also a class `dwebsign.DWebSign` which can be
 extended.
 
 #### `keypair()`
