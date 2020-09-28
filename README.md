@@ -12,7 +12,7 @@ npm install @dwebswarm/dwebsign
 
 Call the exported function to get dwebsign instance.
 
-There is also a class `dwebsign.DWebSign` which can be
+There is also a class `dwebsign.dwebsign` which can be
 extended.
 
 #### `keypair()`

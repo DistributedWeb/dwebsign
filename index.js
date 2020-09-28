@@ -18,7 +18,7 @@ const saltSeg = Buffer.from('4:salt')
 const seqSeg = Buffer.from('3:seqi')
 const vSeg = Buffer.from('1:v')
 
-class DWebsign {
+class dwebsign {
   salt (str = null, size = 32) {
     if (typeof str === 'number') {
       size = str
@@ -96,6 +96,6 @@ class DWebsign {
   }
 }
 
-module.exports = () => new DWebsign()
-module.exports.DWebsign = DWebsign
+module.exports = () => new dwebsign()
+module.exports.dwebsign = dwebsign
 module.exports.VALUE_MAX_SIZE = VALUE_MAX_SIZE
